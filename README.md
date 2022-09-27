@@ -10,7 +10,6 @@
       <img src="https://img.shields.io/badge/web-optimised-important" />
     </a> </div>
 
-  <br/>
   <p>
   Design beautiful <strong>responsive</strong> websites using <a href="https://flutter.dev">Flutter 💙</a>
   </p>
