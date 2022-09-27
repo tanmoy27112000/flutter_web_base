@@ -20,15 +20,13 @@
   </p>
 </div>
 
-<div align="center">
-  <a href="https://github.com/tanmoy27112000/flutterbase">
-    <img src="images/example-showcase.png" />
-  </a>
-</div>
-
 ---
 
-<blockquote class="imgur-embed-pub" lang="en" data-id="a/ot1J0FH" data-context="false" ><a href="//imgur.com/a/ot1J0FH"></a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
+
+
+<div class="flexible" align="center">
+  <img src="/example/assets/product_view.gif" height="500px" alt="Kitchensink App gif">  
+</div>
 
 
 ### Content
