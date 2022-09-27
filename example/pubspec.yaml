@@ -29,7 +29,7 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  flutterbase:
+  flutter_web_base:
     path: /Users/tanmoykarmakar/Documents/flutter apps/flutterbase
 
 

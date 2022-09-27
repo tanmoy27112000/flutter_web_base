@@ -74,7 +74,7 @@ packages:
     description: flutter
     source: sdk
     version: "0.0.0"
-  flutterbase:
+  flutter_web_base:
     dependency: "direct main"
     description:
       path: "/Users/tanmoykarmakar/Documents/flutter apps/flutterbase"

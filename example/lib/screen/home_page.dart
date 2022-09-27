@@ -11,7 +11,7 @@ class Homepage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
         appBar: AppBar(
-          title: const Text("Flutterbase"),
+          title: const Text("flutter_web_base"),
         ),
         body: Center(
           child: Column(

@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:flutterbase/nav_bar/nav_bar_3/nav_bar_3_mobile.dart';
-import 'package:flutterbase/nav_bar/nav_bar_3/nav_bar_3_tab.dart';
-import 'package:flutterbase/nav_bar/nav_bar_3/nav_bar_3_web.dart';
+import 'package:flutter_web_base/nav_bar/nav_bar_3/nav_bar_3_mobile.dart';
+import 'package:flutter_web_base/nav_bar/nav_bar_3/nav_bar_3_tab.dart';
+import 'package:flutter_web_base/nav_bar/nav_bar_3/nav_bar_3_web.dart';
 import 'package:responsive_builder/responsive_builder.dart';
 
 class NavBar3 extends StatefulWidget {

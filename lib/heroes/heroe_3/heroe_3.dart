@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:flutterbase/heroes/heroe_3/heroe_3_mobile.dart';
-import 'package:flutterbase/heroes/heroe_3/heroe_3_tab.dart';
-import 'package:flutterbase/heroes/heroe_3/heroe_3_web.dart';
+import 'package:flutter_web_base/heroes/heroe_3/heroe_3_mobile.dart';
+import 'package:flutter_web_base/heroes/heroe_3/heroe_3_tab.dart';
+import 'package:flutter_web_base/heroes/heroe_3/heroe_3_web.dart';
 import 'package:responsive_builder/responsive_builder.dart';
 
 class Heroes3 extends StatefulWidget {

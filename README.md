@@ -1,5 +1,5 @@
 <div align="center">
-  <h1>Flutterbase</h1>
+  <h1>flutter_web_base</h1>
   <div>
     <a title="pub.dev" href="https://pub.dartlang.org/packages/fluent_ui" >
       <img src="https://img.shields.io/pub/v/fluent_ui.svg?style=flat-square&include_prereleases&color=dc143c" />
@@ -16,7 +16,7 @@
   </p>
 
   <p>
-  Made with responsiveness and usablity in mind with <a href="https://flutter.dev">Flutter 💙</a>
+  Made with responsiveness and usability in mind with <a href="https://flutter.dev">Flutter 💙</a>
   </p>
 </div>
 
@@ -25,7 +25,7 @@
 
 
 <div class="flexible" align="center">
-  <img src="/example/assets/product_view.gif" height="500px" alt="Flutterbase demo gif">  
+  <img src="/example/assets/product_view.gif" height="500px" alt="flutter_web_base demo gif">  
 </div>
 
 
@@ -56,18 +56,18 @@ Add the package to your dependencies:
 
 ```yaml
 dependencies:
-  flutterbase: ^0.0.1
+  flutter_web_base: ^0.0.1
 ```
 
 <p align="center">OR</p>
 
 ```yaml
 dependencies:
-  flutterbase:
-    git: https://github.com/tanmoy27112000/flutterbase.git
+  flutter_web_base:
+    git: https://github.com/tanmoy27112000/flutter_web_base.git
 ```
 
-You can see the example app [here](https://github.com/tanmoy27112000/flutterbase.git)
+You can see the example app [here](https://github.com/tanmoy27112000/flutter_web_base.git)
 
 Finally, run `dart pub get` to download the package.
 
@@ -77,18 +77,18 @@ Projects using this library should use the stable channel of Flutter
 
 Are you using this library on your app? You can use a badge to tell others:
 
-<a title="Made with Flutterbase" href="https://github.com/tanmoy27112000/flutterbase.git">
+<a title="Made with flutter_web_base" href="https://github.com/tanmoy27112000/flutter_web_base.git">
   <img
-    src="https://img.shields.io/badge/made%20with-Flutterbase-blue"
+    src="https://img.shields.io/badge/made%20with-flutter_web_base-blue"
   >
 </a>
 
 Add the following code to your `README.md` or to your website:
 
 ```html
-<a title="Made with Flutterbase" href="https://github.com/tanmoy27112000/flutterbase.git">
+<a title="Made with flutter_web_base" href="https://github.com/tanmoy27112000/flutter_web_base.git">
   <img
-    src="https://img.shields.io/badge/made%20with-Flutterbase-blue"
+    src="https://img.shields.io/badge/made%20with-flutter_web_base-blue"
   >
 </a>
 ```
@@ -97,19 +97,19 @@ Add the following code to your `README.md` or to your website:
 
 ### How to use
 
-First you need to import the Flutterbase library
+First you need to import the flutter_web_base library
 
 ```dart
-import 'package:flutterbase/flutterbase.dart';
+import 'package:flutter_web_base/flutter_web_base.dart';
 ```
 
-Now you get access to all the widgets in Flutterbase library.
+Now you get access to all the widgets in flutter_web_base library.
 
 - Nav bar example
 
 ```dart
 NavBar1(
-    title: const Text("Flutterbase"),
+    title: const Text("flutter_web_base"),
     logo: const FlutterLogo(
         size: 40,
     ),
@@ -140,7 +140,7 @@ NavBar1(
 
 ## Widgets
 
-Flutterbase currently has two types of widget categories:
+flutter_web_base currently has two types of widget categories:
 
 - Nav bar widget
   - NavBar1
@@ -156,6 +156,6 @@ If a widget type is not supported, You can [add support for new widget type](#co
 
 ## Contribution
 
-Feel free to [file an issue](https://github.com/tanmoy27112000/flutterbase/issues) if you find a problem or [make pull requests](https://github.com/tanmoy27112000/flutterbase/pulls).
+Feel free to [file an issue](https://github.com/tanmoy27112000/flutter_web_base/issues) if you find a problem or [make pull requests](https://github.com/tanmoy27112000/flutter_web_base/pulls).
 
 All contributions are welcome :)

@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutterbase/flutterbase.dart';
+import 'package:flutter_web_base/flutter_web_base.dart';
 
 class NavBarScreen extends StatefulWidget {
   const NavBarScreen({super.key});
@@ -16,7 +16,7 @@ class _NavBarScreenState extends State<NavBarScreen> {
       body: Column(
         children: <Widget>[
           NavBar1(
-            title: const Text("Flutterbase"),
+            title: const Text("flutter_web_base"),
             logo: const FlutterLogo(
               size: 40,
             ),
