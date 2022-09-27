@@ -39,7 +39,7 @@ class _Heroe3WebState extends State<Heroe3Web> {
         children: [
           SizedBox(
             width: MediaQuery.of(context).size.width / 2.5,
-            height: MediaQuery.of(context).size.height / 3.5,
+            height: MediaQuery.of(context).size.height / 2.5,
             child: Column(
               mainAxisAlignment: MainAxisAlignment.spaceEvenly,
               crossAxisAlignment: CrossAxisAlignment.start,
@@ -71,7 +71,7 @@ class _Heroe3WebState extends State<Heroe3Web> {
           ),
           SizedBox(
             width: MediaQuery.of(context).size.width / 2.5,
-            height: MediaQuery.of(context).size.height / 3.5,
+            height: MediaQuery.of(context).size.height / 2.5,
             child: widget.image,
           )
         ],

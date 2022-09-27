@@ -33,13 +33,13 @@ class _Heroe3TabState extends State<Heroe3Tab> {
   Widget build(BuildContext context) {
     return SizedBox(
       width: MediaQuery.of(context).size.width,
-      height: MediaQuery.of(context).size.height / 2,
+      height: MediaQuery.of(context).size.height / 1.5,
       child: Column(
         mainAxisAlignment: MainAxisAlignment.spaceEvenly,
         children: <Widget>[
           SizedBox(
-            width: MediaQuery.of(context).size.width / 1.5,
-            height: MediaQuery.of(context).size.height / 3.5,
+            width: MediaQuery.of(context).size.width / 2,
+            height: MediaQuery.of(context).size.height / 4,
             child: widget.image,
           ),
           Text(
