@@ -25,7 +25,7 @@
 
 
 <div class="flexible" align="center">
-  <img src="/example/assets/product_view.gif" height="500px" alt="Kitchensink App gif">  
+  <img src="/example/assets/product_view.gif" height="500px" alt="Flutterbase demo gif">  
 </div>
 
 
