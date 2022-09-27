@@ -13,3 +13,7 @@
 ## 0.0.4
 
 * updated readme images
+
+## 0.0.5
+
+* updated license and homepage link

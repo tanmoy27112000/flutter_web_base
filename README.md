@@ -55,7 +55,7 @@ Add the package to your dependencies:
 
 ```yaml
 dependencies:
-  flutter_web_base: ^0.0.4
+  flutter_web_base: ^0.0.5
 ```
 
 <p align="center">OR</p>
