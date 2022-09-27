@@ -9,3 +9,7 @@
 ## 0.0.3
 
 * reupload changes
+  
+## 0.0.4
+
+* updated readme images

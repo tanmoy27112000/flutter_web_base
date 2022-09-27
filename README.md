@@ -24,7 +24,7 @@
 
 
 <div class="flexible" align="center">
-  <img src="/assets/product_view.gif" height="500px" alt="flutter_web_base demo gif">  
+  <img src="https://i.imgur.com/gAsGbJK.gif" height="500px" alt="flutter_web_base demo gif">  
 </div>
 
 
@@ -55,7 +55,7 @@ Add the package to your dependencies:
 
 ```yaml
 dependencies:
-  flutter_web_base: ^0.0.1
+  flutter_web_base: ^0.0.4
 ```
 
 <p align="center">OR</p>
@@ -147,7 +147,7 @@ flutter_web_base currently has two types of widget categories:
   - NavBar3
 
 <div class="flexible" align="center">
-  <img src="/assets/1.png" height="500px" alt="navbar">  
+  <img src="https://i.imgur.com/UDJiZfE.png" height="500px" alt="navbar">  
 </div>
 
 - Heroes
@@ -156,7 +156,7 @@ flutter_web_base currently has two types of widget categories:
   - Heroes3
 
 <div class="flexible" align="center">
-  <img src="/assets/2.png" height="500px" alt="heroes">  
+  <img src="https://i.imgur.com/WXFRbpq.png" height="500px" alt="heroes">  
 </div>
 
 If a widget type is not supported, You can [add support for new widget type](#contribution) or use the inbuild widget types.
