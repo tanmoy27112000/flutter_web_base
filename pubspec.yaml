@@ -1,7 +1,7 @@
 name: flutter_web_base
 description: flutter_web_base is a library consisting of Flutter web compatible
   components. Easy to use and responsive.
-version: 0.0.2
+version: 0.0.3
 homepage: https://www.tanmoykarmakar.in
 
 environment:
