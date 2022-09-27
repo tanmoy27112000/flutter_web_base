@@ -24,7 +24,7 @@
 
 
 <div class="flexible" align="center">
-  <img src="/example/assets/product_view.gif" height="500px" alt="flutter_web_base demo gif">  
+  <img src="/assets/product_view.gif" height="500px" alt="flutter_web_base demo gif">  
 </div>
 
 
@@ -146,10 +146,18 @@ flutter_web_base currently has two types of widget categories:
   - NavBar2
   - NavBar3
 
+<div class="flexible" align="center">
+  <img src="/assets/1.png" height="500px" alt="navbar">  
+</div>
+
 - Heroes
   - Heroes1
   - Heroes2
   - Heroes3
+
+<div class="flexible" align="center">
+  <img src="/assets/2.png" height="500px" alt="heroes">  
+</div>
 
 If a widget type is not supported, You can [add support for new widget type](#contribution) or use the inbuild widget types.
 
