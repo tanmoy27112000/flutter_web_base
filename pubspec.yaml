@@ -2,7 +2,7 @@ name: flutterbase
 description: Flutter base is a library consisting of Flutter web compatible
   components. Easy to use and responsive.
 version: 0.0.1
-homepage: www.tanmoykarmakar.in
+homepage: https://www.tanmoykarmakar.in
 
 environment:
   sdk: ">=2.17.6 <3.0.0"
