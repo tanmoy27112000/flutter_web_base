@@ -17,3 +17,7 @@
 ## 0.0.5
 
 * updated license and homepage link
+  
+## 0.0.6
+
+* added feature widget
