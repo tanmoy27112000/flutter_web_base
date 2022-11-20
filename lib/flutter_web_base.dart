@@ -8,3 +8,5 @@ export 'package:flutter_web_base/heroes/heroe_2/heroe_2.dart';
 export 'package:flutter_web_base/heroes/heroe_3/heroe_3.dart';
 export 'package:flutter_web_base/feature/feature_1/feature_1.dart';
 export 'package:flutter_web_base/feature/feature_2/feature_2.dart';
+export 'package:flutter_web_base/button/button_1/button_1.dart';
+export 'package:flutter_web_base/button/button_2/button_2.dart';

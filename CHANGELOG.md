@@ -21,3 +21,7 @@
 ## 0.0.6
 
 * added feature widget
+
+## 0.0.7
+
+* added button widget

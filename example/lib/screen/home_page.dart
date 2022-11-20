@@ -1,3 +1,4 @@
+import 'package:example/screen/button_page.dart';
 import 'package:example/screen/feature_page.dart';
 import 'package:example/screen/heroes_page.dart';
 import 'package:example/screen/nav_bar_screen.dart';
@@ -50,6 +51,17 @@ class Homepage extends StatelessWidget {
                   );
                 },
                 child: const Text("Features"),
+              ),
+              ElevatedButton(
+                onPressed: () {
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(
+                      builder: (context) => const ButtonPage(),
+                    ),
+                  );
+                },
+                child: const Text("Buttons"),
               ),
             ],
           ),
