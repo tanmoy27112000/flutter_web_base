@@ -176,6 +176,16 @@ flutter_web_base currently has two types of widget categories:
   <img src="https://i.imgur.com/hoWJBfY.png" height="500px" alt="heroes">  
 </div>
 
+- Tag
+  - BorderTag
+  - BorderIconTag
+  - NoBorderTag
+  - NoBorderIconTag
+
+<div class="flexible" align="center">
+  <img src="https://i.imgur.com/TYsVnE6.png" height="500px" alt="heroes">  
+</div>
+
 If a widget type is not supported, You can [add support for new widget type](#contribution) or use the inbuild widget types.
 
 ## Contribution

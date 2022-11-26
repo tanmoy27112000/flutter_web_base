@@ -25,3 +25,7 @@
 ## 0.0.7
 
 * added button widget
+  
+## 0.0.8
+
+* added tags widget
