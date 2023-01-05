@@ -1,3 +1,4 @@
+import 'package:example/screen/achievement_banner_page.dart';
 import 'package:example/screen/button_page.dart';
 import 'package:example/screen/feature_page.dart';
 import 'package:example/screen/heroes_page.dart';
@@ -76,6 +77,17 @@ class Homepage extends StatelessWidget {
               );
             },
             child: const Text("Tags"),
+          ),
+          ElevatedButton(
+            onPressed: () {
+              Navigator.push(
+                context,
+                MaterialPageRoute(
+                  builder: (context) => const AchievementBannerPage(),
+                ),
+              );
+            },
+            child: const Text("Achievement Banner"),
           ),
         ],
       ),

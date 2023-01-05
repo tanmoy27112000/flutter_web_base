@@ -29,3 +29,7 @@
 ## 0.0.8
 
 * added tags widget
+
+## 0.0.9
+
+* added achivement widget
