@@ -12,7 +12,6 @@ dependencies:
   flutter:
     sdk: flutter
   responsive_builder: ^0.4.3
-  intl:
 
 dev_dependencies:
   flutter_lints: ^2.0.0
