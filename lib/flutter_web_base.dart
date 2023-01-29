@@ -18,3 +18,4 @@ export 'package:flutter_web_base/tags/non_border_tag/no_border_tag_with_icon.dar
 export 'package:flutter_web_base/achievement_banner/achievement_banner_1/achievement_banner_1.dart';
 export 'package:flutter_web_base/achievement_banner/achievement_banner_2/achievement_banner_2.dart';
 export 'package:flutter_web_base/achievement_banner/model/achievement_model.dart';
+export 'package:flutter_web_base/footer/footer.dart';
