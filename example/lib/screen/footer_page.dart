@@ -16,12 +16,42 @@ class _FooterPageState extends State<FooterPage> {
         title: const Text("Footer"),
       ),
       body: Column(
-        children: const <Widget>[
+        children: <Widget>[
           Footer1(
-            achievementList: [],
+            title: "2023 Flutter.dev",
+            logo: const FlutterLogo(),
+            action: [
+              TextButton(
+                child: const Text("Home"),
+                onPressed: () {},
+              ),
+              TextButton(
+                child: const Text("Feature"),
+                onPressed: () {},
+              ),
+              TextButton(
+                child: const Text("Pricing"),
+                onPressed: () {},
+              ),
+            ],
           ),
-          Footer2(
-            achievementList: [],
+           Footer2(
+             title: "2023 Flutter.dev",
+            logo: const FlutterLogo(),
+            action: [
+              TextButton(
+                child: const Text("Home"),
+                onPressed: () {},
+              ),
+              TextButton(
+                child: const Text("Feature"),
+                onPressed: () {},
+              ),
+              TextButton(
+                child: const Text("Pricing"),
+                onPressed: () {},
+              ),
+            ],
           ),
         ],
       ),
