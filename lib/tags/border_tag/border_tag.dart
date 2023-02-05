@@ -2,15 +2,15 @@ import 'package:flutter/material.dart';
 import '../utils/tag_utils.dart';
 
 class BorderTag extends StatefulWidget {
-  double height;
-  double width;
-  Color backgroundColor;
-  Color borderColor;
-  Color textColor;
-  String text;
-  TextStyle textStyle;
-  TagType tagType;
-  BorderTag({
+  final double height;
+  final double width;
+  final Color backgroundColor;
+  final Color borderColor;
+  final Color textColor;
+  final String text;
+  final TextStyle textStyle;
+  final TagType tagType;
+  const BorderTag({
     super.key,
     this.height = 40,
     this.width = 100,

@@ -2,16 +2,16 @@ import 'package:flutter/material.dart';
 import '../utils/tag_utils.dart';
 
 class NoBorderIconTag extends StatefulWidget {
-  double height;
-  double width;
-  Color backgroundColor;
+  final double height;
+  final double width;
+  final Color backgroundColor;
 
-  Color textColor;
-  String text;
-  TextStyle textStyle;
-  IconData icon;
-  TagType tagType;
-  NoBorderIconTag({
+  final Color textColor;
+  final String text;
+  final TextStyle textStyle;
+  final IconData icon;
+  final TagType tagType;
+  const NoBorderIconTag({
     super.key,
     this.height = 40,
     this.width = 100,

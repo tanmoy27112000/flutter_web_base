@@ -2,16 +2,16 @@ import 'package:flutter/material.dart';
 import '../utils/tag_utils.dart';
 
 class BorderIconTag extends StatefulWidget {
-  double height;
-  double width;
-  Color backgroundColor;
-  Color borderColor;
-  Color textColor;
-  String text;
-  TextStyle textStyle;
-  IconData icon;
-  TagType tagType;
-  BorderIconTag({
+  final double height;
+  final double width;
+  final Color backgroundColor;
+  final Color borderColor;
+  final Color textColor;
+  final String text;
+  final TextStyle textStyle;
+  final IconData icon;
+  final TagType tagType;
+  const BorderIconTag({
     super.key,
     this.height = 40,
     this.width = 100,
