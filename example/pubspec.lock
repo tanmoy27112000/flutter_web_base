@@ -81,7 +81,7 @@ packages:
       path: "/Users/tanmoykarmakar/Documents/flutter apps/flutterbase"
       relative: false
     source: path
-    version: "0.0.9"
+    version: "0.0.10"
   js:
     dependency: transitive
     description:

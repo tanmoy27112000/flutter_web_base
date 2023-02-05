@@ -194,6 +194,14 @@ flutter_web_base currently has two types of widget categories:
   <img src="https://i.imgur.com/MKAz4Gl.png" height="500px" alt="heroes">  
 </div>
 
+- Footer Widget
+  - Footer1
+  - Footer2
+  
+<div class="flexible" align="center">
+  <img src="https://i.imgur.com/qS1wHkS.png" height="500px" alt="heroes">  
+</div>
+
 If a widget type is not supported, You can [add support for new widget type](#contribution) or use the inbuild widget types.
 
 ## Contribution

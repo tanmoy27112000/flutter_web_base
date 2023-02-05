@@ -33,3 +33,7 @@
 ## 0.0.9
 
 * added achivement widget
+
+## 0.0.10
+
+* added footer widget
