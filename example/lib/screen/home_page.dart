@@ -100,6 +100,16 @@ class Homepage extends StatelessWidget {
               );
             },
             child: const Text("Footer"),
+          ), ElevatedButton(
+            onPressed: () {
+              Navigator.push(
+                context,
+                MaterialPageRoute(
+                  builder: (context) => const gridviewscreen(),
+                ),
+              );
+            },
+            child: const Text("Gridview with Hover"),
           ),
         ],
       ),
