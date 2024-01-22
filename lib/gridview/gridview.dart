@@ -20,29 +20,19 @@ class GridViewLayout extends StatefulWidget {
 
 class _GridViewLayoutState extends State<GridViewLayout> {
   @override
-  Widget build(BuildContext context) {
+   Widget build(BuildContext context) {
     return LayoutBuilder(
-      builder: (context, constraints) {
-        return ResponsiveBuilder(
-          builder: (context, sizingInformation) {
-            if (sizingInformation.isMobile) {
-              return GridMobile(
-                titles: widget.titles,
-              );
-            }
-
-            if (sizingInformation.isTablet) {
-              return GridTab(
-                titles: widget.titles,
-              );
-            }
-
-            return GridWeb(
-              titles: widget.titles,
-            );
-          },
-        );
-      },
+      builder: (context, constraints) => ScreenTypeLayout.builder(
+        mobile: (context) => GridMobile(
+          titles: widget.titles,
+        ),
+        tablet: (context) => GridTab(
+          titles: widget.titles,
+        ),
+        desktop: (context) => GridWeb(
+          titles: widget.titles,
+        ),
+      ),
     );
   }
 }

@@ -2,14 +2,14 @@ import 'package:flutter/material.dart';
 import 'package:flutter_web_base/flutter_web_base.dart';
 import 'package:flutter_web_base/gridview/gridview.dart';
 
-class gridviewscreen extends StatefulWidget {
-  const gridviewscreen({super.key});
+class GridViewScreen extends StatefulWidget {
+  const GridViewScreen({super.key});
 
   @override
-  State<gridviewscreen> createState() => _gridviewscreenState();
+  State<GridViewScreen> createState() => _GridViewScreenState();
 }
 
-class _gridviewscreenState extends State<gridviewscreen> {
+class _GridViewScreenState extends State<GridViewScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
