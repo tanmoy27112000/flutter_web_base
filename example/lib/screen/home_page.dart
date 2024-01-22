@@ -6,6 +6,8 @@ import 'package:example/screen/heroes_page.dart';
 import 'package:example/screen/nav_bar_screen.dart';
 import 'package:example/screen/tag_page.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_web_base/flutter_web_base.dart';
+
 
 class Homepage extends StatelessWidget {
   const Homepage({
@@ -101,8 +103,23 @@ class Homepage extends StatelessWidget {
             },
             child: const Text("Footer"),
           ),
+          ElevatedButton(
+            onPressed: () {
+              Navigator.push(
+                context,
+                MaterialPageRoute(
+                  builder: (context) =>   const SideBar(
+                    headerIcon: Icons.flutter_dash,
+                    sideBarHeader: 'Sidebar',
+                  ),)
+
+              );
+            },
+            child: const Text("My Drawer"),
+          ),
         ],
       ),
     );
   }
 }
+
