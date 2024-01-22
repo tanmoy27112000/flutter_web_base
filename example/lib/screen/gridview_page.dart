@@ -16,7 +16,7 @@ class _GridViewScreenState extends State<GridViewScreen> {
         appBar: AppBar(
           title: const Text("Gridview"),
         ),
-        body: GridViewLayout(
+        body: const GridViewLayout(
           titles: [
             "Grid 1",
             "Grid 2",
@@ -25,7 +25,7 @@ class _GridViewScreenState extends State<GridViewScreen> {
             "Grid 5",
             "Grid 6",
             "Grid 7",
-            "Grid 8"
+            "Grid 8",
           ],
         ));
   }
