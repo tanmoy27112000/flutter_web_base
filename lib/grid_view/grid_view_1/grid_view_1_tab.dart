@@ -1,23 +1,24 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_web_base/grid_view/model/grid_view_model.dart';
 
-class GridMobile extends StatefulWidget {
-  const GridMobile({Key? key, required this.titles}) : super(key: key);
+class GridView1Tab extends StatefulWidget {
+  const GridView1Tab({Key? key, required this.gridData}) : super(key: key);
 
-  final List<String> titles;
+final List<GridViewModel> gridData;
 
   @override
-  _GridMobileState createState() => _GridMobileState();
+  _GridView1TabState createState() => _GridView1TabState();
 }
 
-class _GridMobileState extends State<GridMobile> {
+class _GridView1TabState extends State<GridView1Tab> {
   Map<int, bool> isHovering = {};
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       body: GridView.count(
-        crossAxisCount: 2,
-        childAspectRatio: 1,
+        crossAxisCount: 3,
+        childAspectRatio: 1.3,
         shrinkWrap: true,
         children: List.generate(8, (index) {
           isHovering[index] ??= false;
@@ -41,7 +42,7 @@ class _GridMobileState extends State<GridMobile> {
                     ? Color.fromARGB(255, 249, 95, 75)
                     : Color.fromARGB(255, 118, 177, 230),
                 child: Center(
-                  child: Text(widget.titles[index]),
+                  child: Text(widget.gridData[index].title),
                 ),
               ),
             ),

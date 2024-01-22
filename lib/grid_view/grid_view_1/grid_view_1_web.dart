@@ -1,15 +1,16 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_web_base/grid_view/model/grid_view_model.dart';
 
-class GridWeb extends StatefulWidget {
-  const GridWeb({Key? key, required this.titles}) : super(key: key);
+class GridView1Web extends StatefulWidget {
+  const GridView1Web({Key? key, required this.gridData}) : super(key: key);
 
-  final List<String> titles;
+  final List<GridViewModel> gridData;
 
   @override
-  _GridWebState createState() => _GridWebState();
+  _GridView1WebState createState() => _GridView1WebState();
 }
 
-class _GridWebState extends State<GridWeb> {
+class _GridView1WebState extends State<GridView1Web> {
   Map<int, bool> isHovering = {};
 
   @override
@@ -38,10 +39,10 @@ class _GridWebState extends State<GridWeb> {
                 width: MediaQuery.of(context).size.width / 1.5,
                 height: MediaQuery.of(context).size.height / 5,
                 color: isHovering[index] ?? false
-                    ? Color.fromARGB(255, 249, 95, 75)
-                    : Color.fromARGB(255, 118, 177, 230),
+                    ? const Color.fromARGB(255, 249, 95, 75)
+                    : const Color.fromARGB(255, 118, 177, 230),
                 child: Center(
-                  child: Text(widget.titles[index]),
+                  child: Text(widget.gridData[index].title),
                 ),
               ),
             ),

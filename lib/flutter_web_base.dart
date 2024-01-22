@@ -19,4 +19,7 @@ export 'package:flutter_web_base/achievement_banner/achievement_banner_1/achieve
 export 'package:flutter_web_base/achievement_banner/achievement_banner_2/achievement_banner_2.dart';
 export 'package:flutter_web_base/achievement_banner/model/achievement_model.dart';
 export 'package:flutter_web_base/footer/footer.dart';
-export 'package:flutter_web_base/gridview/gridview.dart';
+export 'package:flutter_web_base/grid_view/grid_view.dart';
+
+//models
+export 'package:flutter_web_base/grid_view/model/grid_view_model.dart';
