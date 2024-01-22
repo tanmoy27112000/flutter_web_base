@@ -78,7 +78,7 @@ packages:
   flutter_web_base:
     dependency: "direct main"
     description:
-      path: "/Users/tanmoykarmakar/Documents/flutter apps/flutterbase"
+      path: "/Users/redvey/StudioProjects/flutter_web_base"
       relative: false
     source: path
     version: "0.0.10"

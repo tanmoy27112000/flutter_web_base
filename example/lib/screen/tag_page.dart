@@ -10,24 +10,24 @@ class TagPage extends StatefulWidget {
 
 class _TagPageState extends State<TagPage> {
   List tags = [
-    BorderTag(),
-    BorderTag(tagType: TagType.delayed),
-    BorderTag(tagType: TagType.done),
-    BorderTag(tagType: TagType.inProgress),
-    BorderIconTag(icon: Icons.access_alarm_outlined),
-    BorderIconTag(icon: Icons.access_alarm_outlined, tagType: TagType.delayed),
-    BorderIconTag(icon: Icons.check, tagType: TagType.done),
-    BorderIconTag(
+    const BorderTag(),
+    const BorderTag(tagType: TagType.delayed),
+    const BorderTag(tagType: TagType.done),
+    const BorderTag(tagType: TagType.inProgress),
+    const BorderIconTag(icon: Icons.access_alarm_outlined),
+    const BorderIconTag(icon: Icons.access_alarm_outlined, tagType: TagType.delayed),
+    const BorderIconTag(icon: Icons.check, tagType: TagType.done),
+    const BorderIconTag(
         icon: Icons.access_alarm_outlined, tagType: TagType.inProgress),
-    NoBorderTag(),
-    NoBorderTag(tagType: TagType.delayed),
-    NoBorderTag(tagType: TagType.done),
-    NoBorderTag(tagType: TagType.inProgress),
-    NoBorderIconTag(icon: Icons.access_alarm_outlined),
-    NoBorderIconTag(
+    const NoBorderTag(),
+    const NoBorderTag(tagType: TagType.delayed),
+    const NoBorderTag(tagType: TagType.done),
+    const NoBorderTag(tagType: TagType.inProgress),
+    const NoBorderIconTag(icon: Icons.access_alarm_outlined),
+    const NoBorderIconTag(
         icon: Icons.access_alarm_outlined, tagType: TagType.delayed),
-    NoBorderIconTag(icon: Icons.check, tagType: TagType.done),
-    NoBorderIconTag(
+    const NoBorderIconTag(icon: Icons.check, tagType: TagType.done),
+    const NoBorderIconTag(
         icon: Icons.access_alarm_outlined, tagType: TagType.inProgress),
   ];
   @override
