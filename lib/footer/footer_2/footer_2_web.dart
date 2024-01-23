@@ -39,8 +39,9 @@ class _Footer2WebState extends State<Footer2Web> {
                   Text(widget.title),
                 ],
               ),
-              Row(
-                mainAxisSize: MainAxisSize.min,
+              Wrap(
+                spacing: 8,
+                alignment: WrapAlignment.center,
                 children: widget.action ?? [],
               )
             ],
