@@ -1,8 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_web_base/flutter_web_base.dart';
-import 'package:flutter_web_base/footer/footer_3/footer_3.dart';
-import 'package:flutter_web_base/footer/footer_4/footer_4.dart';
-import 'package:flutter_web_base/footer/footer_5/footer_5.dart';
 
 class FooterPage extends StatefulWidget {
   const FooterPage({super.key});
