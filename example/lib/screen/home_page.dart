@@ -110,7 +110,7 @@ class Homepage extends StatelessWidget {
                 ),
               );
             },
-            child: const Text("Gridview with Hover"),
+            child: const Text("Gridview"),
           ),
         ],
       ),

@@ -1,11 +1,12 @@
 class GridViewModel {
-  final String title;
-  final String image;
-  final String description;
+  String imageUrl;
+  String title;
+  String description;
 
   GridViewModel({
+    required this.imageUrl,
     required this.title,
-    required this.image,
     required this.description,
   });
 }
+

@@ -18,9 +18,9 @@ class _GridView1WebState extends State<GridView1Web> {
     return Scaffold(
       body: GridView.count(
         crossAxisCount: 4,
-        childAspectRatio: 1.5,
+        childAspectRatio: 1.1,
         shrinkWrap: true,
-        children: List.generate(8, (index) {
+        children: List.generate(widget.gridData.length, (index) {
           isHovering[index] ??= false;
           return Padding(
             padding: const EdgeInsets.all(8.0),
@@ -36,13 +36,28 @@ class _GridView1WebState extends State<GridView1Web> {
                 });
               },
               child: Container(
+                padding:  EdgeInsets.only(left: 8, right: 8, bottom: 8),
                 width: MediaQuery.of(context).size.width / 1.5,
                 height: MediaQuery.of(context).size.height / 5,
                 color: isHovering[index] ?? false
-                    ? const Color.fromARGB(255, 249, 95, 75)
+                    ? Color.fromARGB(255, 241, 186, 184)
                     : const Color.fromARGB(255, 118, 177, 230),
-                child: Center(
-                  child: Text(widget.gridData[index].title),
+                child: Column(
+                  mainAxisAlignment: MainAxisAlignment.center,
+                  children: [
+                    Image.network(
+                      widget.gridData[index].imageUrl,
+                     
+                    ),
+                    Text(widget.gridData[index].title,
+                        style: const TextStyle(fontSize: 18),
+                        textAlign: TextAlign.start),
+                    Text(
+                      widget.gridData[index].description,
+                      style: const TextStyle(fontSize: 14),
+                      textAlign: TextAlign.start,
+                    ),
+                  ],
                 ),
               ),
             ),
