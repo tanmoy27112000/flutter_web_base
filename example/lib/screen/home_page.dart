@@ -7,6 +7,7 @@ import 'package:example/screen/heroes_page.dart';
 import 'package:example/screen/nav_bar_screen.dart';
 import 'package:example/screen/tag_page.dart';
 import 'package:flutter/material.dart';
+import 'package:example/screen/parallax_page.dart';
 
 class Homepage extends StatelessWidget {
   const Homepage({
@@ -111,6 +112,17 @@ class Homepage extends StatelessWidget {
               );
             },
             child: const Text("Gridview"),
+          ),
+          ElevatedButton(
+            onPressed: () {
+              Navigator.push(
+                context,
+                MaterialPageRoute(
+                  builder: (context) => const ParallaxScreen(),
+                ),
+              );
+            },
+            child: const Text("Parallax Effect"),
           ),
         ],
       ),
