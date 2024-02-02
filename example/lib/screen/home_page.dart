@@ -112,6 +112,17 @@ class Homepage extends StatelessWidget {
             },
             child: const Text("Gridview"),
           ),
+           ElevatedButton(
+            onPressed: () {
+              Navigator.push(
+                context,
+                MaterialPageRoute(
+                  builder: (context) => ParallaxScreen(),
+                ),
+              );
+            },
+            child: const Text("Parallax Effect"),
+          ),
         ],
       ),
     );

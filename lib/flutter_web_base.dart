@@ -20,6 +20,7 @@ export 'package:flutter_web_base/achievement_banner/achievement_banner_2/achieve
 export 'package:flutter_web_base/achievement_banner/model/achievement_model.dart';
 export 'package:flutter_web_base/footer/footer.dart';
 export 'package:flutter_web_base/grid_view/grid_view.dart';
+export 'package:flutter_web_base/parallax_effect/parallax.dart';
 
 //models
 export 'package:flutter_web_base/grid_view/model/grid_view_model.dart';
